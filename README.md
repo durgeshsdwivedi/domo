@@ -1,1 +1,1 @@
-# DOMO Analytics
+# DOMO BI
