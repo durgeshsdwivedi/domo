@@ -1,4 +1,14 @@
 # DOMO BI with API's
+#Generat ClientID and Secret Key
+URL: https://developer.domo.com/new-client
+API: myapi
+Client ID :
+6a87a02e-289f-4115-9efc-740a756477e1
+Secret : 
+5d9a476dfd273095adb37ecc86f72909f4671b28474f11d66b560c2e0d2e25f0
+Scopes : data, workflow, audit, buzz, user, account, dashboard
+
+#Import library
 
 from pydomo import Domo
 import pandas as pd
