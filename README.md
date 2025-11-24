@@ -24,7 +24,7 @@ Docs: https://developer.domo.com/docs/domo-apis/users
 Create, update, and remove groups of users
 Docs: https://developer.domo.com/docs/domo-apis/group-apis
 
-#Page Management
+# Page Management
 Create, update, and delete pages
 Docs: https://developer.domo.com/docs/page-api-reference/page
 
