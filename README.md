@@ -1,12 +1,12 @@
 **# Important Notes - Python 3 Compatibility**
-# PyDomo is written for Python3, and is not compatible with Python2
-# Execute scripts via 'python3', and updates via 'pip3'
+#PyDomo is written for Python3, and is not compatible with Python2
+#Execute scripts via 'python3', and updates via 'pip3'
 
 **# About**
-# The Domo API SDK is the simplest way to automate your Domo instance
-# The SDK streamlines the API programming experience, allowing you to significantly reduce your written code
-# This SDK was written for Python3, and is not compatible with Python2
-# PyDomo has been published to PyPI. The SDK can be easily installed via pip3 install pydomo, and can be updated via pip3 install pydomo --upgrade
+#The Domo API SDK is the simplest way to automate your Domo instance
+#The SDK streamlines the API programming experience, allowing you to significantly reduce your written code
+#This SDK was written for Python3, and is not compatible with Python2
+#PyDomo has been published to PyPI. The SDK can be easily installed via pip3 install pydomo, and can be updated via pip3 install pydomo --upgrade
 
 # Features:
 •	DataSet and Personalized Data Policy (PDP) Management
