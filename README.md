@@ -1,25 +1,31 @@
-Important Notes - Python 3 Compatibility
+#Important Notes - Python 3 Compatibility
 PyDomo is written for Python3, and is not compatible with Python2
 Execute scripts via 'python3', and updates via 'pip3'
-About
+
+#About
 The Domo API SDK is the simplest way to automate your Domo instance
 The SDK streamlines the API programming experience, allowing you to significantly reduce your written code
 This SDK was written for Python3, and is not compatible with Python2
 PyDomo has been published to PyPI. The SDK can be easily installed via pip3 install pydomo, and can be updated via pip3 install pydomo --upgrade
-Features:
+
+#Features:
 DataSet and Personalized Data Policy (PDP) Management
 Use DataSets for fairly static data sources that only require occasional updates via data replacement
 This SDK automates the use of Domo Streams so that uploads are always as fast as possible
-Add Personalized Data Policies (PDPs) to DataSets (hide sensitive data from groups of users)
+
+#Add Personalized Data Policies (PDPs) to DataSets (hide sensitive data from groups of users)
 Docs: https://developer.domo.com/docs/domo-apis/data
-User Management
+
+#User Management
 Create, update, and remove users
 Major use case: LDAP/Active Directory synchronization
 Docs: https://developer.domo.com/docs/domo-apis/users
-Group Management
+
+#Group Management
 Create, update, and remove groups of users
 Docs: https://developer.domo.com/docs/domo-apis/group-apis
-Page Management
+
+#Page Management
 Create, update, and delete pages
 Docs: https://developer.domo.com/docs/page-api-reference/page
 Setup
@@ -28,13 +34,15 @@ Linux: 'apt-get install python3'
 MacOS: 'brew install python3'
 Windows: direct download, or use Bash on Windows 10
 Install PyDomo and its dependencies via pip3 install pydomo
-Updates
+
+#Updates
 Update your PyDomo package via pip3 install pydomo --upgrade
-View the changelog
+
+#View the changelog
 Usage
 Below are examples of how to use the SDK to perform a few common tasks. To run similar code on your system, do the following.
 
-Create an API Client on the Domo Developer Portal
+#Create an API Client on the Domo Developer Portal
 Use your API Client id/secret to instantiate pydomo 'Domo()'
 Multiple API Clients can be used by instantiating multiple 'Domo()' clients
 Authentication with the Domo API is handled automatically by the SDK
