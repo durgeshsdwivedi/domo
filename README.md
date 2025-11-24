@@ -7,6 +7,7 @@ The Domo API SDK is the simplest way to automate your Domo instance
 The SDK streamlines the API programming experience, allowing you to significantly reduce your written code
 This SDK was written for Python3, and is not compatible with Python2
 PyDomo has been published to PyPI. The SDK can be easily installed via pip3 install pydomo, and can be updated via pip3 install pydomo --upgrade
+Domo API SDK: https://github.com/domoinc/domo-python-sdk
 
 # Features:
 DataSet and Personalized Data Policy (PDP) Management
