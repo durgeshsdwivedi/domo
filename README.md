@@ -1,46 +1,45 @@
-#Important Notes - Python 3 Compatibility
-PyDomo is written for Python3, and is not compatible with Python2
-Execute scripts via 'python3', and updates via 'pip3'
-
-#About
-The Domo API SDK is the simplest way to automate your Domo instance
-The SDK streamlines the API programming experience, allowing you to significantly reduce your written code
-This SDK was written for Python3, and is not compatible with Python2
-PyDomo has been published to PyPI. The SDK can be easily installed via pip3 install pydomo, and can be updated via pip3 install pydomo --upgrade
-
-#Features:
-DataSet and Personalized Data Policy (PDP) Management
-Use DataSets for fairly static data sources that only require occasional updates via data replacement
-This SDK automates the use of Domo Streams so that uploads are always as fast as possible
-
-#Add Personalized Data Policies (PDPs) to DataSets (hide sensitive data from groups of users)
-Docs: https://developer.domo.com/docs/domo-apis/data
-
-#User Management
-Create, update, and remove users
-Major use case: LDAP/Active Directory synchronization
-Docs: https://developer.domo.com/docs/domo-apis/users
-
-#Group Management
-Create, update, and remove groups of users
-Docs: https://developer.domo.com/docs/domo-apis/group-apis
-
-#Page Management
-Create, update, and delete pages
-Docs: https://developer.domo.com/docs/page-api-reference/page
+Notice - Python 3 Compatibility
+•	PyDomo is written for Python3, and is not compatible with Python2
+•	Execute scripts via 'python3', and updates via 'pip3'
+About
+•	The Domo API SDK is the simplest way to automate your Domo instance
+•	The SDK streamlines the API programming experience, allowing you to significantly reduce your written code
+•	This SDK was written for Python3, and is not compatible with Python2
+•	PyDomo has been published to PyPI. The SDK can be easily installed via pip3 install pydomo, and can be updated via pip3 install pydomo --upgrade
+Features:
+•	DataSet and Personalized Data Policy (PDP) Management
+o	Use DataSets for fairly static data sources that only require occasional updates via data replacement
+o	This SDK automates the use of Domo Streams so that uploads are always as fast as possible
+o	Add Personalized Data Policies (PDPs) to DataSets (hide sensitive data from groups of users)
+o	Docs: https://developer.domo.com/docs/domo-apis/data
+•	User Management
+o	Create, update, and remove users
+o	Major use case: LDAP/Active Directory synchronization
+o	Docs: https://developer.domo.com/docs/domo-apis/users
+•	Group Management
+o	Create, update, and remove groups of users
+o	Docs: https://developer.domo.com/docs/domo-apis/group-apis
+•	Page Management
+o	Create, update, and delete pages
+o	Docs: https://developer.domo.com/docs/page-api-reference/page
 Setup
-Install Python3: https://www.python.org/downloads/
-Linux: 'apt-get install python3'
-MacOS: 'brew install python3'
-Windows: direct download, or use Bash on Windows 10
-Install PyDomo and its dependencies via pip3 install pydomo
-
-#Updates
-Update your PyDomo package via pip3 install pydomo --upgrade
-
-#View the changelog
+•	Install Python3: https://www.python.org/downloads/
+o	Linux: 'apt-get install python3'
+o	MacOS: 'brew install python3'
+o	Windows: direct download, or use Bash on Windows 10
+•	Install PyDomo and its dependencies via pip3 install pydomo
+Updates
+•	Update your PyDomo package via pip3 install pydomo --upgrade
+•	View the changelog
 Usage
 Below are examples of how to use the SDK to perform a few common tasks. To run similar code on your system, do the following.
+•	Create an API Client on the Domo Developer Portal
+•	Use your API Client id/secret to instantiate pydomo 'Domo()'
+•	Multiple API Clients can be used by instantiating multiple 'Domo()' clients
+•	Authentication with the Domo API is handled automatically by the SDK
+•	If you encounter a 'Not Allowed' error, this is a permissions issue. Please speak with your Domo Administrator.
+
+
 
 #Create an API Client on the Domo Developer Portal
 Use your API Client id/secret to instantiate pydomo 'Domo()'
